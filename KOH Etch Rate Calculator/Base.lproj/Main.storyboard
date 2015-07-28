@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="o1l-aI-W7w">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="RalewayMedium.ttf">
+            <string>Raleway-Medium</string>
+            <string>Raleway-Medium</string>
+            <string>Raleway-Medium</string>
+            <string>Raleway-Medium</string>
+            <string>Raleway-Medium</string>
+            <string>Raleway-Medium</string>
+            <string>Raleway-Medium</string>
+            <string>Raleway-Medium</string>
+            <string>Raleway-Medium</string>
+            <string>Raleway-Medium</string>
+            <string>Raleway-Medium</string>
+            <string>Raleway-Medium</string>
+            <string>Raleway-Medium</string>
+            <string>Raleway-Medium</string>
+            <string>Raleway-Medium</string>
+            <string>Raleway-Medium</string>
+            <string>Raleway-Medium</string>
+            <string>Raleway-Medium</string>
+            <string>Raleway-Medium</string>
+            <string>Raleway-Medium</string>
+            <string>Raleway-Medium</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="KOH_Etch_Rate_Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="64" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Solution Temp:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="nzG-2Z-uhP">
+                                <rect key="frame" x="16" y="72" width="168" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="168" id="2Ax-3e-2a0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="20"/>
+                                <color key="textColor" red="0.23137254901960785" green="0.50588235294117645" blue="0.51372549019607838" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KOH Weight %:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="uoq-ak-Vca">
+                                <rect key="frame" x="192" y="72" width="167" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="167" id="uFu-SF-MAF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="20"/>
+                                <color key="textColor" red="0.23137254900000001" green="0.50588235290000005" blue="0.51372549020000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZDf-Lo-nu8">
+                                <rect key="frame" x="192" y="105" width="167" height="162"/>
+                            </pickerView>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7vO-lg-TmH">
+                                <rect key="frame" x="16" y="105" width="168" height="162"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="162" id="N0F-2y-4xe"/>
+                                </constraints>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Material/Plane:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="HnM-Hb-9vk">
+                                <rect key="frame" x="16" y="266" width="168" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="woO-OZ-rl2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="20"/>
+                                <color key="textColor" red="0.23137254900000001" green="0.50588235290000005" blue="0.51372549020000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Etch Rate(um/hr):" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="UFA-3g-hyI">
+                                <rect key="frame" x="192" y="266" width="167" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="Keq-op-9du"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="20"/>
+                                <color key="textColor" red="0.23137254900000001" green="0.50588235290000005" blue="0.51372549020000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Si &lt;100&gt;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="DRH-hw-A83">
+                                <rect key="frame" x="16" y="309" width="168" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="c6w-sX-jAs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="16"/>
+                                <color key="textColor" red="0.80000000000000004" green="0.1647058824" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Si &lt;110&gt;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Ze5-sA-Ze0">
+                                <rect key="frame" x="16" y="352" width="168" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="MpV-ut-pB4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="16"/>
+                                <color key="textColor" red="0.80000000000000004" green="0.1647058824" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="lre-gY-uJL">
+                                <rect key="frame" x="210" y="355" width="130" height="30"/>
+                                <color key="textColor" red="0.80000000000000004" green="0.1647058824" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Si &lt;111&gt;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="M8G-be-FwM">
+                                <rect key="frame" x="16" y="395" width="168" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="T2w-Lg-Cas"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="16"/>
+                                <color key="textColor" red="0.80000000000000004" green="0.1647058824" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="kGW-sm-lbM">
+                                <rect key="frame" x="210" y="398" width="130" height="30"/>
+                                <color key="textColor" red="0.80000000000000004" green="0.1647058824" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SiO2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="2lU-WJ-F1Q">
+                                <rect key="frame" x="16" y="438" width="168" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="nz9-ob-Y06"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="16"/>
+                                <color key="textColor" red="0.80000000000000004" green="0.1647058824" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="xnk-eu-9cf">
+                                <rect key="frame" x="210" y="312" width="130" height="30"/>
+                                <color key="textColor" red="0.80000000000000004" green="0.1647058824" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="BaE-VO-S38">
+                                <rect key="frame" x="210" y="441" width="130" height="30"/>
+                                <color key="textColor" red="0.80000000000000004" green="0.1647058824" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97254901960784312" green="0.92549019607843142" blue="0.78823529411764703" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="lre-gY-uJL" firstAttribute="leading" secondItem="xnk-eu-9cf" secondAttribute="leading" id="0ob-dI-h6P"/>
+                            <constraint firstItem="uoq-ak-Vca" firstAttribute="leading" secondItem="nzG-2Z-uhP" secondAttribute="trailing" constant="8" id="1yD-5b-BVr"/>
+                            <constraint firstItem="BaE-VO-S38" firstAttribute="top" secondItem="kGW-sm-lbM" secondAttribute="bottom" constant="13" id="283-kN-9lF"/>
+                            <constraint firstItem="ZDf-Lo-nu8" firstAttribute="centerX" secondItem="xnk-eu-9cf" secondAttribute="centerX" id="3zz-iA-raC"/>
+                            <constraint firstItem="uoq-ak-Vca" firstAttribute="leading" secondItem="nzG-2Z-uhP" secondAttribute="trailing" constant="8" id="6bu-6J-sc9"/>
+                            <constraint firstItem="ZDf-Lo-nu8" firstAttribute="top" secondItem="uoq-ak-Vca" secondAttribute="bottom" constant="-2" id="8OK-Nk-JH1"/>
+                            <constraint firstItem="ZDf-Lo-nu8" firstAttribute="centerX" secondItem="BaE-VO-S38" secondAttribute="centerX" id="9FR-aD-4Hc"/>
+                            <constraint firstItem="7vO-lg-TmH" firstAttribute="leading" secondItem="Ze5-sA-Ze0" secondAttribute="leading" id="9VX-P5-gcr"/>
+                            <constraint firstItem="7vO-lg-TmH" firstAttribute="leading" secondItem="DRH-hw-A83" secondAttribute="leading" id="9ar-v8-8EC"/>
+                            <constraint firstItem="uoq-ak-Vca" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="Bag-ah-e7e"/>
+                            <constraint firstItem="2lU-WJ-F1Q" firstAttribute="top" secondItem="M8G-be-FwM" secondAttribute="bottom" constant="8" symbolic="YES" id="C5s-mb-udD"/>
+                            <constraint firstItem="ZDf-Lo-nu8" firstAttribute="leading" secondItem="UFA-3g-hyI" secondAttribute="leading" id="DGN-1a-he5"/>
+                            <constraint firstItem="nzG-2Z-uhP" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="Dq7-yd-YeD"/>
+                            <constraint firstItem="ZDf-Lo-nu8" firstAttribute="height" secondItem="7vO-lg-TmH" secondAttribute="height" id="Fnt-N1-CFz"/>
+                            <constraint firstItem="UFA-3g-hyI" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="Gz0-23-uIP"/>
+                            <constraint firstItem="ZDf-Lo-nu8" firstAttribute="leading" secondItem="7vO-lg-TmH" secondAttribute="trailing" constant="8" symbolic="YES" id="GzX-1W-Tmw"/>
+                            <constraint firstItem="7vO-lg-TmH" firstAttribute="leading" secondItem="nzG-2Z-uhP" secondAttribute="leading" id="Idc-1Z-xEz"/>
+                            <constraint firstItem="7vO-lg-TmH" firstAttribute="leading" secondItem="HnM-Hb-9vk" secondAttribute="leading" id="Jbl-9E-bR5"/>
+                            <constraint firstItem="ZDf-Lo-nu8" firstAttribute="width" secondItem="7vO-lg-TmH" secondAttribute="width" constant="-1" id="Kxm-az-P8O"/>
+                            <constraint firstItem="lre-gY-uJL" firstAttribute="top" secondItem="xnk-eu-9cf" secondAttribute="bottom" constant="13" id="NYm-WS-x5n"/>
+                            <constraint firstItem="7vO-lg-TmH" firstAttribute="trailing" secondItem="M8G-be-FwM" secondAttribute="trailing" id="OCI-0h-ETu"/>
+                            <constraint firstItem="ZDf-Lo-nu8" firstAttribute="centerX" secondItem="kGW-sm-lbM" secondAttribute="centerX" id="Omd-yR-OE6"/>
+                            <constraint firstItem="M8G-be-FwM" firstAttribute="top" secondItem="Ze5-sA-Ze0" secondAttribute="bottom" constant="8" symbolic="YES" id="Pod-N7-gd3"/>
+                            <constraint firstItem="7vO-lg-TmH" firstAttribute="trailing" secondItem="Ze5-sA-Ze0" secondAttribute="trailing" id="QyY-5b-PcI"/>
+                            <constraint firstItem="ZDf-Lo-nu8" firstAttribute="top" secondItem="7vO-lg-TmH" secondAttribute="top" id="SQg-Gl-3mn"/>
+                            <constraint firstItem="xnk-eu-9cf" firstAttribute="top" secondItem="UFA-3g-hyI" secondAttribute="bottom" constant="11" id="SiY-Ie-Klq"/>
+                            <constraint firstItem="UFA-3g-hyI" firstAttribute="top" secondItem="ZDf-Lo-nu8" secondAttribute="bottom" constant="-1" id="VSu-UX-xA7"/>
+                            <constraint firstItem="7vO-lg-TmH" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="105" id="ZiB-5d-b8n"/>
+                            <constraint firstItem="ZDf-Lo-nu8" firstAttribute="trailing" secondItem="uoq-ak-Vca" secondAttribute="trailing" id="bWN-R4-Dq5"/>
+                            <constraint firstItem="7vO-lg-TmH" firstAttribute="trailing" secondItem="HnM-Hb-9vk" secondAttribute="trailing" id="baO-iy-5Gc"/>
+                            <constraint firstItem="HnM-Hb-9vk" firstAttribute="firstBaseline" secondItem="UFA-3g-hyI" secondAttribute="firstBaseline" id="dJs-33-0ZK"/>
+                            <constraint firstItem="HnM-Hb-9vk" firstAttribute="top" secondItem="7vO-lg-TmH" secondAttribute="bottom" constant="-1" id="h8H-84-fCc"/>
+                            <constraint firstItem="7vO-lg-TmH" firstAttribute="trailing" secondItem="2lU-WJ-F1Q" secondAttribute="trailing" id="hhx-8h-vWU"/>
+                            <constraint firstItem="BaE-VO-S38" firstAttribute="leading" secondItem="kGW-sm-lbM" secondAttribute="leading" id="jgq-ar-f4w"/>
+                            <constraint firstItem="7vO-lg-TmH" firstAttribute="top" secondItem="nzG-2Z-uhP" secondAttribute="bottom" constant="-2" id="kLg-fj-3tl"/>
+                            <constraint firstItem="xnk-eu-9cf" firstAttribute="leading" secondItem="DRH-hw-A83" secondAttribute="trailing" constant="26" id="mkc-wo-i9L"/>
+                            <constraint firstItem="UFA-3g-hyI" firstAttribute="baseline" secondItem="HnM-Hb-9vk" secondAttribute="baseline" id="mt4-GJ-EuI"/>
+                            <constraint firstItem="ZDf-Lo-nu8" firstAttribute="bottom" secondItem="7vO-lg-TmH" secondAttribute="bottom" id="nbi-CB-Rf0"/>
+                            <constraint firstItem="ZDf-Lo-nu8" firstAttribute="centerX" secondItem="lre-gY-uJL" secondAttribute="centerX" id="ngN-NT-XXt"/>
+                            <constraint firstItem="kGW-sm-lbM" firstAttribute="top" secondItem="lre-gY-uJL" secondAttribute="bottom" constant="13" id="pc1-Pu-PEL"/>
+                            <constraint firstItem="uoq-ak-Vca" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="rCj-y1-ef0"/>
+                            <constraint firstItem="7vO-lg-TmH" firstAttribute="leading" secondItem="2lU-WJ-F1Q" secondAttribute="leading" id="rad-sm-GXq"/>
+                            <constraint firstItem="nzG-2Z-uhP" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="rdo-C3-REH"/>
+                            <constraint firstItem="DRH-hw-A83" firstAttribute="top" secondItem="HnM-Hb-9vk" secondAttribute="bottom" constant="8" symbolic="YES" id="t7m-EA-a3a"/>
+                            <constraint firstItem="7vO-lg-TmH" firstAttribute="leading" secondItem="M8G-be-FwM" secondAttribute="leading" id="vzr-AQ-mrh"/>
+                            <constraint firstItem="ZDf-Lo-nu8" firstAttribute="leading" secondItem="uoq-ak-Vca" secondAttribute="leading" id="ynZ-Mw-Rf9"/>
+                            <constraint firstItem="Ze5-sA-Ze0" firstAttribute="top" secondItem="DRH-hw-A83" secondAttribute="bottom" constant="8" symbolic="YES" id="z5N-X3-DbU"/>
+                            <constraint firstItem="7vO-lg-TmH" firstAttribute="trailing" secondItem="DRH-hw-A83" secondAttribute="trailing" id="zM6-Xn-o0T"/>
+                            <constraint firstItem="kGW-sm-lbM" firstAttribute="leading" secondItem="lre-gY-uJL" secondAttribute="leading" id="zx4-Gq-pQp"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ydc-HF-f8a">
+                        <barButtonItem key="rightBarButtonItem" title="About" id="W8n-6Q-K3s">
+                            <connections>
+                                <segue destination="gzk-NM-NYo" kind="show" identifier="AboutSegue" id="82X-tE-EVk"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="Outlet100" destination="xnk-eu-9cf" id="dS0-w4-i9X"/>
+                        <outlet property="Outlet110" destination="lre-gY-uJL" id="ygq-gO-wgn"/>
+                        <outlet property="Outlet111" destination="kGW-sm-lbM" id="WKT-nW-tCz"/>
+                        <outlet property="OutletSiO2" destination="BaE-VO-S38" id="enQ-eQ-2Xb"/>
+                        <outlet property="TempPicker" destination="7vO-lg-TmH" id="xfP-8U-RqF"/>
+                        <outlet property="WeightPicker" destination="ZDf-Lo-nu8" id="9P3-OE-2dq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1848.5" y="353.5"/>
+        </scene>
+        <!--About View Controller-->
+        <scene sceneID="OS6-Ok-91e">
+            <objects>
+                <viewController id="gzk-NM-NYo" customClass="AboutViewController" customModule="KOH_Etch_Rate_Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2pR-qD-uWz"/>
+                        <viewControllerLayoutGuide type="bottom" id="RiP-hc-5RK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wFX-TL-GwE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon_1024.png" translatesAutoresizingMaskIntoConstraints="NO" id="jOp-4y-ALT">
+                                <rect key="frame" x="78" y="124" width="219" height="219"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="* Etch rates are dependent on factors such as" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Xwm-dI-Kkh">
+                                <rect key="frame" x="16" y="379" width="343" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="YXj-SL-h3p"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="16"/>
+                                <color key="textColor" red="0.80000000000000004" green="0.1647058824" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Notes:" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Dj-sX-hXR">
+                                <rect key="frame" x="16" y="351" width="343" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="f7N-NF-uVA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="18"/>
+                                <color key="textColor" red="0.23137254900000001" green="0.50588235290000005" blue="0.51372549020000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KOH Etch Rate Calculator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0AE-2V-YAo">
+                                <rect key="frame" x="0.0" y="78" width="375" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="hSq-D9-ZQZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="25"/>
+                                <color key="textColor" red="0.23137254900000001" green="0.50588235290000005" blue="0.51372549020000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="the addition of Isopropanol and sample" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="nhl-3x-Hk7">
+                                <rect key="frame" x="16" y="407" width="343" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="0RF-Wd-n3o"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="16"/>
+                                <color key="textColor" red="0.80000000000000004" green="0.1647058824" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="geometry, particularly in the &lt;111&gt; direction." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Gzb-e9-O7W">
+                                <rect key="frame" x="16" y="435" width="343" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="v5f-Zl-YLS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="16"/>
+                                <color key="textColor" red="0.80000000000000004" green="0.1647058824" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="* Values for the calculator were graciously" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="3nB-MC-B9W">
+                                <rect key="frame" x="16" y="491" width="343" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="7HT-Tf-U7L"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="16"/>
+                                <color key="textColor" red="0.80000000000000004" green="0.1647058824" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="provided by Maria Pace. Her comprehensive" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="K0e-37-nh5">
+                                <rect key="frame" x="16" y="519" width="343" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="rX8-kX-T8R"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="16"/>
+                                <color key="textColor" red="0.80000000000000004" green="0.1647058824" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KOH Etch Rate Calculator can be found at" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Njb-c0-Yup">
+                                <rect key="frame" x="16" y="547" width="343" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="d9q-s5-Xxk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="16"/>
+                                <color key="textColor" red="0.80000000000000004" green="0.1647058824" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="http://lelandstanfordjunior.com/KOH.html." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="nBF-Vd-Ma3">
+                                <rect key="frame" x="16" y="575" width="343" height="20"/>
+                                <fontDescription key="fontDescription" name="Raleway-Medium" family="Raleway" pointSize="16"/>
+                                <color key="textColor" red="0.80000000000000004" green="0.1647058824" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97254901959999995" green="0.92549019610000005" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="nhl-3x-Hk7" firstAttribute="leading" secondItem="Xwm-dI-Kkh" secondAttribute="leading" id="4wB-sV-Bb8"/>
+                            <constraint firstItem="jOp-4y-ALT" firstAttribute="leading" secondItem="wFX-TL-GwE" secondAttribute="leadingMargin" constant="62" id="5Zy-wa-bfw"/>
+                            <constraint firstItem="2Dj-sX-hXR" firstAttribute="leading" secondItem="Xwm-dI-Kkh" secondAttribute="leading" id="7Md-Ut-AMV"/>
+                            <constraint firstItem="Njb-c0-Yup" firstAttribute="trailing" secondItem="K0e-37-nh5" secondAttribute="trailing" id="7Mg-Wh-hEa"/>
+                            <constraint firstItem="2Dj-sX-hXR" firstAttribute="top" secondItem="jOp-4y-ALT" secondAttribute="bottom" constant="8" symbolic="YES" id="A2S-J3-WfG"/>
+                            <constraint firstItem="nhl-3x-Hk7" firstAttribute="trailing" secondItem="Xwm-dI-Kkh" secondAttribute="trailing" id="Aqc-2m-JOD"/>
+                            <constraint firstItem="K0e-37-nh5" firstAttribute="trailing" secondItem="3nB-MC-B9W" secondAttribute="trailing" id="Ctr-1e-SDv"/>
+                            <constraint firstItem="Xwm-dI-Kkh" firstAttribute="top" secondItem="2Dj-sX-hXR" secondAttribute="bottom" constant="8" symbolic="YES" id="E2j-0Y-iz0"/>
+                            <constraint firstItem="2Dj-sX-hXR" firstAttribute="trailing" secondItem="Xwm-dI-Kkh" secondAttribute="trailing" id="G4p-f7-p3U"/>
+                            <constraint firstItem="jOp-4y-ALT" firstAttribute="top" secondItem="2pR-qD-uWz" secondAttribute="bottom" constant="60" id="K6h-VB-83g"/>
+                            <constraint firstItem="2Dj-sX-hXR" firstAttribute="leading" secondItem="wFX-TL-GwE" secondAttribute="leadingMargin" id="KFy-22-DW3"/>
+                            <constraint firstItem="nBF-Vd-Ma3" firstAttribute="leading" secondItem="Njb-c0-Yup" secondAttribute="leading" id="KY5-mX-Pk6"/>
+                            <constraint firstItem="nhl-3x-Hk7" firstAttribute="top" secondItem="Xwm-dI-Kkh" secondAttribute="bottom" constant="8" symbolic="YES" id="KZ0-Jn-Cxf"/>
+                            <constraint firstItem="Gzb-e9-O7W" firstAttribute="trailing" secondItem="nhl-3x-Hk7" secondAttribute="trailing" id="MNn-Gh-yx7"/>
+                            <constraint firstItem="nBF-Vd-Ma3" firstAttribute="top" secondItem="Njb-c0-Yup" secondAttribute="bottom" constant="8" symbolic="YES" id="Mtq-bs-ovq"/>
+                            <constraint firstItem="3nB-MC-B9W" firstAttribute="top" secondItem="Gzb-e9-O7W" secondAttribute="bottom" constant="36" id="OsM-gZ-UWb"/>
+                            <constraint firstItem="0AE-2V-YAo" firstAttribute="leading" secondItem="wFX-TL-GwE" secondAttribute="leading" id="PFw-1I-P06"/>
+                            <constraint firstItem="RiP-hc-5RK" firstAttribute="top" secondItem="nBF-Vd-Ma3" secondAttribute="bottom" constant="72" id="PJd-BJ-EcI"/>
+                            <constraint firstItem="nBF-Vd-Ma3" firstAttribute="trailing" secondItem="Njb-c0-Yup" secondAttribute="trailing" id="WUf-Zw-Iaa"/>
+                            <constraint firstAttribute="bottom" secondItem="Xwm-dI-Kkh" secondAttribute="bottom" constant="268" id="XHC-Eg-72V"/>
+                            <constraint firstItem="nBF-Vd-Ma3" firstAttribute="leading" secondItem="Gzb-e9-O7W" secondAttribute="leading" id="XrC-F3-YeJ"/>
+                            <constraint firstItem="0AE-2V-YAo" firstAttribute="top" secondItem="2pR-qD-uWz" secondAttribute="bottom" constant="14" id="eAq-Ft-SxM"/>
+                            <constraint firstItem="0AE-2V-YAo" firstAttribute="centerX" secondItem="jOp-4y-ALT" secondAttribute="centerX" id="mKD-36-fX2"/>
+                            <constraint firstItem="K0e-37-nh5" firstAttribute="top" secondItem="3nB-MC-B9W" secondAttribute="bottom" constant="8" symbolic="YES" id="mYF-Kc-Zam"/>
+                            <constraint firstItem="nBF-Vd-Ma3" firstAttribute="trailing" secondItem="Gzb-e9-O7W" secondAttribute="trailing" id="qa8-54-8st"/>
+                            <constraint firstItem="Gzb-e9-O7W" firstAttribute="top" secondItem="nhl-3x-Hk7" secondAttribute="bottom" constant="8" symbolic="YES" id="qaw-ae-gcv"/>
+                            <constraint firstItem="Njb-c0-Yup" firstAttribute="leading" secondItem="K0e-37-nh5" secondAttribute="leading" id="sC5-kk-E9j"/>
+                            <constraint firstItem="K0e-37-nh5" firstAttribute="leading" secondItem="3nB-MC-B9W" secondAttribute="leading" id="vou-bh-mdv"/>
+                            <constraint firstItem="Gzb-e9-O7W" firstAttribute="leading" secondItem="nhl-3x-Hk7" secondAttribute="leading" id="xUb-ee-lls"/>
+                            <constraint firstItem="Njb-c0-Yup" firstAttribute="top" secondItem="K0e-37-nh5" secondAttribute="bottom" constant="8" symbolic="YES" id="xaR-v1-y6g"/>
+                            <constraint firstItem="2Dj-sX-hXR" firstAttribute="trailing" secondItem="wFX-TL-GwE" secondAttribute="trailingMargin" id="y3w-3O-RdO"/>
+                            <constraint firstItem="jOp-4y-ALT" firstAttribute="centerX" secondItem="2Dj-sX-hXR" secondAttribute="centerX" id="yK9-sV-HUd"/>
+                        </constraints>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P4x-XE-Rvl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2310.5" y="353.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="i07-HV-I7E">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="o1l-aI-W7w" customClass="NavigationController" customModule="KOH_Etch_Rate_Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="y1X-h9-MgT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="bPh-I6-hiN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wNx-cY-6ls" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1246" y="320"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Icon_1024.png" width="1024" height="1024"/>
+    </resources>
+</document>

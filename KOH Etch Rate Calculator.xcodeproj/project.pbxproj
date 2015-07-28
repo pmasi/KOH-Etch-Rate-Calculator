@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C10A2751B549CDD005C4A5B /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C10A2741B549CDD005C4A5B /* Raleway-Light.ttf */; };
+		1C10A2771B549FFE005C4A5B /* RalewayMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C10A2761B549FFE005C4A5B /* RalewayMedium.ttf */; };
+		1C56E4841B530AB50059E5A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C56E4831B530AB50059E5A3 /* AppDelegate.swift */; };
+		1C56E4861B530AB50059E5A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C56E4851B530AB50059E5A3 /* ViewController.swift */; };
+		1C56E4891B530AB50059E5A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C56E4871B530AB50059E5A3 /* Main.storyboard */; };
+		1C56E48B1B530AB50059E5A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C56E48A1B530AB50059E5A3 /* Images.xcassets */; };
+		1C56E48E1B530AB50059E5A3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C56E48C1B530AB50059E5A3 /* LaunchScreen.xib */; };
+		1C56E49A1B530AB50059E5A3 /* KOH_Etch_Rate_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C56E4991B530AB50059E5A3 /* KOH_Etch_Rate_CalculatorTests.swift */; };
+		1C56E4A41B531BAD0059E5A3 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C56E4A31B531BAD0059E5A3 /* AboutViewController.swift */; };
+		1C6C1C821B55A43B00BCD233 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6C1C811B55A43B00BCD233 /* NavigationController.swift */; };
+		1C98A3AD1B57156300BDFF40 /* Icon_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C98A3AC1B57156300BDFF40 /* Icon_1024.png */; };
+		1CC7411B1B55F3920026B1B3 /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC7411A1B55F3920026B1B3 /* LaunchImage.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C56E4941B530AB50059E5A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C56E4761B530AB50059E5A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C56E47D1B530AB50059E5A3;
+			remoteInfo = "KOH Etch Rate Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C10A2741B549CDD005C4A5B /* Raleway-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Light.ttf"; sourceTree = "<group>"; };
+		1C10A2761B549FFE005C4A5B /* RalewayMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = RalewayMedium.ttf; sourceTree = "<group>"; };
+		1C56E47E1B530AB50059E5A3 /* KOH Etch Rate Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KOH Etch Rate Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C56E4821B530AB50059E5A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C56E4831B530AB50059E5A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C56E4851B530AB50059E5A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1C56E4881B530AB50059E5A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C56E48A1B530AB50059E5A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1C56E48D1B530AB50059E5A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1C56E4931B530AB50059E5A3 /* KOH Etch Rate CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KOH Etch Rate CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C56E4981B530AB50059E5A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C56E4991B530AB50059E5A3 /* KOH_Etch_Rate_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KOH_Etch_Rate_CalculatorTests.swift; sourceTree = "<group>"; };
+		1C56E4A31B531BAD0059E5A3 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		1C6C1C811B55A43B00BCD233 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		1C98A3AC1B57156300BDFF40 /* Icon_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_1024.png; sourceTree = "<group>"; };
+		1CC7411A1B55F3920026B1B3 /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImage.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C56E47B1B530AB50059E5A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C56E4901B530AB50059E5A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C56E4751B530AB50059E5A3 = {
+			isa = PBXGroup;
+			children = (
+				1C56E4801B530AB50059E5A3 /* KOH Etch Rate Calculator */,
+				1C56E4961B530AB50059E5A3 /* KOH Etch Rate CalculatorTests */,
+				1C56E47F1B530AB50059E5A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C56E47F1B530AB50059E5A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C56E47E1B530AB50059E5A3 /* KOH Etch Rate Calculator.app */,
+				1C56E4931B530AB50059E5A3 /* KOH Etch Rate CalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C56E4801B530AB50059E5A3 /* KOH Etch Rate Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				1C56E4831B530AB50059E5A3 /* AppDelegate.swift */,
+				1C6C1C811B55A43B00BCD233 /* NavigationController.swift */,
+				1C56E4851B530AB50059E5A3 /* ViewController.swift */,
+				1C56E4A31B531BAD0059E5A3 /* AboutViewController.swift */,
+				1C56E4871B530AB50059E5A3 /* Main.storyboard */,
+				1C56E48A1B530AB50059E5A3 /* Images.xcassets */,
+				1C56E48C1B530AB50059E5A3 /* LaunchScreen.xib */,
+				1C10A2741B549CDD005C4A5B /* Raleway-Light.ttf */,
+				1C10A2761B549FFE005C4A5B /* RalewayMedium.ttf */,
+				1CC7411A1B55F3920026B1B3 /* LaunchImage.png */,
+				1C98A3AC1B57156300BDFF40 /* Icon_1024.png */,
+				1C56E4811B530AB50059E5A3 /* Supporting Files */,
+			);
+			path = "KOH Etch Rate Calculator";
+			sourceTree = "<group>";
+		};
+		1C56E4811B530AB50059E5A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C56E4821B530AB50059E5A3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1C56E4961B530AB50059E5A3 /* KOH Etch Rate CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C56E4991B530AB50059E5A3 /* KOH_Etch_Rate_CalculatorTests.swift */,
+				1C56E4971B530AB50059E5A3 /* Supporting Files */,
+			);
+			path = "KOH Etch Rate CalculatorTests";
+			sourceTree = "<group>";
+		};
+		1C56E4971B530AB50059E5A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C56E4981B530AB50059E5A3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C56E47D1B530AB50059E5A3 /* KOH Etch Rate Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C56E49D1B530AB50059E5A3 /* Build configuration list for PBXNativeTarget "KOH Etch Rate Calculator" */;
+			buildPhases = (
+				1C56E47A1B530AB50059E5A3 /* Sources */,
+				1C56E47B1B530AB50059E5A3 /* Frameworks */,
+				1C56E47C1B530AB50059E5A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KOH Etch Rate Calculator";
+			productName = "KOH Etch Rate Calculator";
+			productReference = 1C56E47E1B530AB50059E5A3 /* KOH Etch Rate Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C56E4921B530AB50059E5A3 /* KOH Etch Rate CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C56E4A01B530AB50059E5A3 /* Build configuration list for PBXNativeTarget "KOH Etch Rate CalculatorTests" */;
+			buildPhases = (
+				1C56E48F1B530AB50059E5A3 /* Sources */,
+				1C56E4901B530AB50059E5A3 /* Frameworks */,
+				1C56E4911B530AB50059E5A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C56E4951B530AB50059E5A3 /* PBXTargetDependency */,
+			);
+			name = "KOH Etch Rate CalculatorTests";
+			productName = "KOH Etch Rate CalculatorTests";
+			productReference = 1C56E4931B530AB50059E5A3 /* KOH Etch Rate CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C56E4761B530AB50059E5A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Paul MD";
+				TargetAttributes = {
+					1C56E47D1B530AB50059E5A3 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = NUSZ3WQ8Z9;
+					};
+					1C56E4921B530AB50059E5A3 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 1C56E47D1B530AB50059E5A3;
+					};
+				};
+			};
+			buildConfigurationList = 1C56E4791B530AB50059E5A3 /* Build configuration list for PBXProject "KOH Etch Rate Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C56E4751B530AB50059E5A3;
+			productRefGroup = 1C56E47F1B530AB50059E5A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C56E47D1B530AB50059E5A3 /* KOH Etch Rate Calculator */,
+				1C56E4921B530AB50059E5A3 /* KOH Etch Rate CalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C56E47C1B530AB50059E5A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C56E4891B530AB50059E5A3 /* Main.storyboard in Resources */,
+				1C56E48E1B530AB50059E5A3 /* LaunchScreen.xib in Resources */,
+				1CC7411B1B55F3920026B1B3 /* LaunchImage.png in Resources */,
+				1C56E48B1B530AB50059E5A3 /* Images.xcassets in Resources */,
+				1C10A2751B549CDD005C4A5B /* Raleway-Light.ttf in Resources */,
+				1C10A2771B549FFE005C4A5B /* RalewayMedium.ttf in Resources */,
+				1C98A3AD1B57156300BDFF40 /* Icon_1024.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C56E4911B530AB50059E5A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C56E47A1B530AB50059E5A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C56E4A41B531BAD0059E5A3 /* AboutViewController.swift in Sources */,
+				1C6C1C821B55A43B00BCD233 /* NavigationController.swift in Sources */,
+				1C56E4861B530AB50059E5A3 /* ViewController.swift in Sources */,
+				1C56E4841B530AB50059E5A3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C56E48F1B530AB50059E5A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C56E49A1B530AB50059E5A3 /* KOH_Etch_Rate_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C56E4951B530AB50059E5A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C56E47D1B530AB50059E5A3 /* KOH Etch Rate Calculator */;
+			targetProxy = 1C56E4941B530AB50059E5A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1C56E4871B530AB50059E5A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C56E4881B530AB50059E5A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C56E48C1B530AB50059E5A3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C56E48D1B530AB50059E5A3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C56E49B1B530AB50059E5A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C56E49C1B530AB50059E5A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C56E49E1B530AB50059E5A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "KOH Etch Rate Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C56E49F1B530AB50059E5A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "KOH Etch Rate Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1C56E4A11B530AB50059E5A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KOH Etch Rate CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KOH Etch Rate Calculator.app/KOH Etch Rate Calculator";
+			};
+			name = Debug;
+		};
+		1C56E4A21B530AB50059E5A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KOH Etch Rate CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KOH Etch Rate Calculator.app/KOH Etch Rate Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C56E4791B530AB50059E5A3 /* Build configuration list for PBXProject "KOH Etch Rate Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C56E49B1B530AB50059E5A3 /* Debug */,
+				1C56E49C1B530AB50059E5A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C56E49D1B530AB50059E5A3 /* Build configuration list for PBXNativeTarget "KOH Etch Rate Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C56E49E1B530AB50059E5A3 /* Debug */,
+				1C56E49F1B530AB50059E5A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C56E4A01B530AB50059E5A3 /* Build configuration list for PBXNativeTarget "KOH Etch Rate CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C56E4A11B530AB50059E5A3 /* Debug */,
+				1C56E4A21B530AB50059E5A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C56E4761B530AB50059E5A3 /* Project object */;
+}
